@@ -3,7 +3,7 @@ cask "grove" do
   name "grove"
   desc "Scale agents, not stress. Calm terminal energy for chaotic agent workflows."
   homepage "https://github.com/SarthakJariwala/grove"
-  version "0.8.0"
+  version "0.9.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -18,12 +18,12 @@ cask "grove" do
     on_intel do
       url "https://github.com/SarthakJariwala/grove/releases/download/v#{version}/grove_darwin_amd64.tar.gz",
         verified: "github.com/SarthakJariwala/grove"
-      sha256 "83bb956862a5e303138108e51357b725eca1fc95bb75787bdaa4d706d3690982"
+      sha256 "7de18138ba3671cc0a2056ae313adaedd8caaefd6c11d7644e31bb9a9ee1be74"
     end
     on_arm do
       url "https://github.com/SarthakJariwala/grove/releases/download/v#{version}/grove_darwin_arm64.tar.gz",
         verified: "github.com/SarthakJariwala/grove"
-      sha256 "f9c6ee204674dd5dc7e1cee80fb84f634f6cc6b6acf0228af72d3070b65a3a53"
+      sha256 "1ca9eceb6b0f968d4ca1a196237243ff35b9e61a4a722184f9b391b0c3aa3c03"
     end
   end
 
@@ -31,12 +31,12 @@ cask "grove" do
     on_intel do
       url "https://github.com/SarthakJariwala/grove/releases/download/v#{version}/grove_linux_amd64.tar.gz",
         verified: "github.com/SarthakJariwala/grove"
-      sha256 "cf2843e907c2ad82cda9b9956670ea19f40b757970a02f1d281a4aeb201786c6"
+      sha256 "c960af80ebcc1396bd9b7d27bb92ffaee5b93f22583d7a3141b8b4762c8d8622"
     end
     on_arm do
       url "https://github.com/SarthakJariwala/grove/releases/download/v#{version}/grove_linux_arm64.tar.gz",
         verified: "github.com/SarthakJariwala/grove"
-      sha256 "1f6200dc5338396b88b9929c23e7171801d02e72d163590192c57b564c4bf274"
+      sha256 "13eea1c8e2dbdde25ab745c355e09cdaee10112ba1bb175c61143d4c36b4d1e7"
     end
   end
 
